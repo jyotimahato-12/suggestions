@@ -1,0 +1,45 @@
+Siddharth Ahuja
+11:21
+Given an m x n 2D binary grid grid which represents a map of '1's (land) and '0's (water), return the number of islands.
+
+An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
+Example 1:
+
+Input: grid = [
+  ["1","1","1","1","0"],
+  ["1","1","0","1","0"],
+  ["1","1","0","0","0"],
+  ["0","0","0","0","0"]
+]
+Output: 1
+Siddharth Ahuja
+11:24
+You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
+
+You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+Example 1:
+Input: l1 = [2,4,3], l2 = [5,6,4]
+Output: [7,0,8]
+Explanation: 342 + 465 = 807.
+Example 2:
+
+Input: l1 = [0], l2 = [0]
+Output: [0]
+Example 3:
+
+Input: l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9]
+Output: [8,9,9,9,0,0,0,1]
+Siddharth Ahuja
+12:15
+1. Do 200 questions covering more topics like DFS, BFS, DP etc. [The list I prefer to use is Neetcode, but it is not the only good list out there, just what I like].
+2. Typing speed is too slow. Take a typing test and try to reach a speed of 50 words per minute.
+3. Do not take inputs from the user while running. It is not wrong, but it takes longer because you have to mention the inputs in every run. Instead define the signature of the calculation method (something similar to what leetcode already does for you) and invoke that method from your main function.
+4. Always think out loud. Extremely important. This will keep them interested and if needed, course correct you as well.
+5. If you keep that conversation active (it is your responsibility to), you can ask some clarifications too if you have some doubt about the question or some edge case.
+6. Always use good variable names. This is extremely important to showcase good quality code + will not confuse you or the intervierwer. Variable names like 'val', 'no' and 'c' are confusing.
+7. Focus on the important part of the problem first. Addition of the linked lists. Creation etc. can happen later.
+8. For creation, you should have a separate function called (say), createLinkedList() --> which can be invoked twice from your main function to get 2 linked lists for addition. Double typing the code / copy-pasting makes it lengthy and non-elegant code.
+9. By the way you have written the code for creation of linked lists, you can only take numbers upto 99.
+10. Code formatting is messed up. Remember you don't just have to create a working code, you have to create a production ready code which means - good formatting + proper variable names + easy to read + optimal and efficient.
+11. Too much silence. Talk about the if-else conditions you are writing. Talk about the mod and division operator that is giving you the number to store and the carry amount.
+12. Sit in a more silent environment. Background noises are not a good idea in a proper interview setting.
